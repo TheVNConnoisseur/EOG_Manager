@@ -1,0 +1,14 @@
+﻿<Window x:Class="EOG_Manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EOG_Manager"
+        mc:Ignorable="d"
+        Title="EOG Manager" Height="195" Width="410" ResizeMode="CanMinimize" WindowStyle="ThreeDBorderWindow">
+    <Canvas Margin="0,0,0,-6" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Button x:Name="Button_Original_File" RenderTransformOrigin="0.519,0.676" Height="32" Canvas.Left="-148" Canvas.Top="-53" Width="94" Content="Select file" Click="Button_Original_File_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="Button_Convert" Content="Convert" Canvas.Left="-148" Canvas.Top="11" RenderTransformOrigin="0.127,0.129" IsEnabled="False" Height="37" Width="94" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Convert_Click"/>
+        <TextBlock x:Name="Author" Canvas.Left="51" TextWrapping="Wrap" Text="EOG Manager developed by The VN Connoisseur" Canvas.Top="-30" Height="46" Width="91" FontFamily="Candara" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" TextAlignment="Center"/>
+    </Canvas>
+</Window>
